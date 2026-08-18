@@ -8,6 +8,7 @@ let screens;
 async function setup() {
     screens = { "title": new TitleScreen(),
         "componentMenu": new ComponentEngineringScreen(),
+        "component": new ComponentEditorScreen(),
      }
     await Assets.loadAssets()
     createCanvas(windowWidth, windowHeight);

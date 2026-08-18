@@ -51,8 +51,9 @@ class ComponentEngineringScreen extends GUI {
         let xPos = 100;
         let yPos = 100;
         for (const component of this.GetCreatableComponents()) {
-            if (this.IsOverComponentAt(xPos, yPos)) {
-                console.log(component)
+            if (this.IsOverComponentAt(xPos, yPos,x,y)) {
+                screens.component = new ComponentEditorScreen(component)
+                screenOn = "component"
             }
             xPos += 100;
             if (xPos > 500) {
