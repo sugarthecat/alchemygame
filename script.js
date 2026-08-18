@@ -5,11 +5,11 @@ let screenOn = "title"
 let scaleFactor = 1;
 let volume = 1;
 let screens;
-function preload() {
-    screens = { "title": new TitleScreen() }
-    Assets.loadAssets()
-}
-function setup() {
+async function setup() {
+    screens = { "title": new TitleScreen(),
+        "component": new ComponentEngineringScreen()
+     }
+    await Assets.loadAssets()
     createCanvas(windowWidth, windowHeight);
 }
 function draw() {
