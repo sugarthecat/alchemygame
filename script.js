@@ -7,8 +7,10 @@ let volume = 1;
 let screens;
 async function setup() {
     screens = { "title": new TitleScreen(),
-        "componentMenu": new ComponentEngineringScreen(),
+        "componentMenu": new ComponentMenu(),
         "component": new ComponentEditorScreen(),
+        "metallurgyMenu": new MetallurgyMenu(),
+        "metallurgy": new MetallurgyEditor(),
      }
     await Assets.loadAssets()
     createCanvas(windowWidth, windowHeight);

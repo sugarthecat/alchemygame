@@ -5,7 +5,8 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
+
     },
     {
         title: "Cooler",
@@ -13,7 +14,7 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
     },
     {
         title: "Tube",
@@ -21,7 +22,7 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
     },
     {
         title: "Placeholder",
@@ -29,7 +30,7 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
     },
     {
         title: "Item 2",
@@ -37,7 +38,7 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
     },
     {
         title: "Thingabob",
@@ -45,7 +46,7 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
     },
     {
         title: "Doohickey",
@@ -53,6 +54,6 @@ const COMPONENT_TYPES = [
         isDesignable: function(){
             return true;
         },
-        usableIn: ["metallurgy"]
+        level: 0,
     }
 ]

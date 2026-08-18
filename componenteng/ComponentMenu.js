@@ -1,5 +1,5 @@
 const userComponents = []
-class ComponentEngineringScreen extends GUI {
+class ComponentMenu extends GUI {
     constructor() {
         super();
         this.elements = [new Button(30, 30, 30, 30, "X", function () { screenOn = "title" })]
